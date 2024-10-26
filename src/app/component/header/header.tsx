@@ -7,7 +7,6 @@ export default function Header() {
       <div className="flex items-center justify-between">
         <div className="">
           <p className="text-white font-medium text-lg tracking-wider">
-            {" "}
             <span className="py-2 px-3 text-white bg-[#ff014f] font-semibold rounded-bl-lg rounded-tr-lg ">
               B
             </span>{" "}
@@ -35,9 +34,15 @@ export default function Header() {
       </div>
       <div className="sm:hidden mt-7 flex justify-center">
         <nav className="flex list-none text-white gap-10">
-          <li>Home</li>
-          <li>About</li>
-          <li>Portfolio</li>
+          <Link href="/">
+            <li>Home</li>
+          </Link>
+          <Link href="#about">
+            <li>About</li>
+          </Link>
+          <Link href="#portfolio">
+            <li>Portfolio</li>
+          </Link>
         </nav>
       </div>
     </header>
