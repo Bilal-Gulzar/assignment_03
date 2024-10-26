@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="p-10  max-w-[1300px] mx-auto">
       <div className="flex items-center justify-between">
-        <div className="">
+        <div>
           <p className="text-white font-medium text-lg tracking-wider">
             <span className="py-2 px-3 text-white bg-[#ff014f] font-semibold rounded-bl-lg rounded-tr-lg ">
               B
@@ -32,12 +32,12 @@ export default function Header() {
           </button>
         </div>
       </div>
-      <div className="sm:hidden mt-7 flex justify-center">
+      <div className="sm:hidden  mt-7 flex justify-center">
         <nav className="flex list-none text-white gap-10">
           <Link href="/">
             <li>Home</li>
           </Link>
-          <Link href="#about">
+          <Link href="#about-us">
             <li>About</li>
           </Link>
           <Link href="#portfolio">
