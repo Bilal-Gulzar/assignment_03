@@ -5,7 +5,7 @@ import Footer from "./component/footer/footer";
 
 export default function Home() {
   return (
-    <div className="bg-[#212429] min-h-screen">
+    <div className="bg-[#212429] overflow-x-hidden min-h-screen">
       <Header />
       <main>
         <Portfolio />

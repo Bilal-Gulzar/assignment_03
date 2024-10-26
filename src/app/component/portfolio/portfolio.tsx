@@ -29,10 +29,10 @@ export default function Portfolio() {
             professional full stack Developer.
           </h2>
           <p className="text-white text-xs md:w-[60%] tracking-widest">
-            i have been working since 2023 i am proficient in ui design user
+            i have been working since 2010 i am proficient in ui design user
             experince ,researcher,web develpment
           </p>
-          <h5 className="text-white text-xs ">FIND WITH ME</h5>
+          <h5 className="text-white text-xs  mt-5 ">FIND WITH ME</h5>
           <div className="flex gap-5 justify-between">
             <div className="flex gap-5">
               <span className="p-2 custom-shadow rounded">
